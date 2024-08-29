@@ -1,4 +1,4 @@
-import videos from "../../json/videos.json"
+import videos from "../../json/videos.json";
 import styles from "Category.module.css";
 
 export const categories = [
@@ -13,12 +13,12 @@ export function filterCategory(id) {
     return videos.filter( video => video.category === categories[id] )
   }
 
-function Category({  Category, children }) {
+function Category({ category, children }) {
     return(
         <section className={styles.category}>
-          <h2>{Category}</h2>
+          <h2>{category}</h2>
           <div>
-            {  Children  }
+            {  children  }
           </div>
         </section>
     );
