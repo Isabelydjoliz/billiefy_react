@@ -1,5 +1,5 @@
 import videos from "../../json/videos.json";
-import styles from "Category.module.css";
+import styles from "./Category.module.css";
 
 export const categories = [
     "Geografia",
