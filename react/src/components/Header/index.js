@@ -4,12 +4,14 @@ import styles from "./Header.module.css";
 function Header(){
     return(
         <header className={styles.header} >
-            <Link to='/'>
-               <span>EtecFlix</span>
+            <Link to="/">
+                <span>FunTube</span>
             </Link>
             <nav>
-                <Link to='/'>Home</Link>
-                <Link to='/'>Assistir</Link>
+                <Link to="/">Home</Link>
+                <Link to="/search">Pesquisar</Link>
+                <Link to="/favorites">Favoritos</Link>
+
             </nav>
         </header>
     );

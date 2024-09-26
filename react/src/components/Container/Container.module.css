@@ -1,9 +1,18 @@
 .container{
+    align-content: center;
     width: 100%;
+    min-height: 100vh;
     background-color: #191919;
     color: #fff;
-    padding-block: 1rem;
+    padding-bottom: 1.5rem;
     text-align: center;
-    /* aula 5 */
-    
+    padding-inline: 1.5rem;
+    overflow: hidden;
+    padding-left: 75px
+}
+
+@media (max-width: 1024px) {
+    .container {
+        padding-inline: 2.5rem;
+    }
 }
