@@ -40,7 +40,7 @@
 }
 
 .container button {
-    background-color: #b71c1c;
+    background-color: rgb(47, 22, 129);
     border-radius: 10px;
     font-weight: 600;
     font-size: 1.125rem;
@@ -52,12 +52,12 @@
 }
 
 .container button:hover {
-    background-color: #f44336;
+    background-color: rgb(47, 22, 129);
 }
 
 .error {
     margin-top: 1.5rem;
-    background-color: #b71c1c;
+    background-color: rgb(47, 22, 129);
     color: #fff;
     padding: 10px;
     border-radius: 5px;
